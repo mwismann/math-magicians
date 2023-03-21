@@ -54,9 +54,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Correct set up of React]**
+- **[Correct set up of React environment]**
 - **[Correct set up of Linters and GitFlow environment.]**
-- **[Basic page structure]**
+- **[Correct flow of React components]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,7 +125,7 @@ To install this project dependencies run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **[Features allowing user to add a score]**
+- **[Add logic to the Calculator]**
 - **[Project components]**
 - **[Project events]**
 - **[Fetch data from API]**
