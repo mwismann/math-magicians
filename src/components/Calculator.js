@@ -1,6 +1,6 @@
 import './Calculator.css';
 
-const keys = ['AC', '+/-', '%', '+', 7, 8, 9, 'x', 4, 5, 6, '-', 1, 2, 3, '+', 0, '.', '='];
+const keys = ['AC', '+/-', '%', '÷', 7, 8, 9, 'x', 4, 5, 6, '-', 1, 2, 3, '+', 0, '.', '='];
 
 const CalculatorOutput = () => (
   <section className="CalcOutput">
@@ -8,15 +8,11 @@ const CalculatorOutput = () => (
   </section>
 );
 
-const CalculatorKeys = () => {
-  const keyItems = keys.map((key) => <div key={key} className="CalcKey">{key}</div>);
-
-  return (
-    <section className="CalcKeysContainer">
-      {keyItems}
-    </section>
-  );
-};
+const CalculatorKeys = () => (
+  <section className="CalcKeysContainer">
+    {keys.map((key) => (<div key={key} className="CalcKey">{key}</div>))}
+  </section>
+);
 
 const CalculatorContainer = () => (
   <div className="CalcContainer">
