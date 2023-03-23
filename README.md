@@ -6,6 +6,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -57,6 +58,12 @@
 - **[Correct set up of React environment]**
 - **[Correct set up of Linters and GitFlow environment.]**
 - **[Correct flow of React components]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- This project doesn't count with a live demo at the moment
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
