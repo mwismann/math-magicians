@@ -1,10 +1,10 @@
 import './App.css';
-import CalculatorContainer from './components/Calculator';
+import RenderCalculator from './components/Calculator';
 
 function App() {
   return (
     <div className="App">
-      <CalculatorContainer />
+      <RenderCalculator />
     </div>
   );
 }
