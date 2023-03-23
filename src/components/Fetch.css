@@ -1,0 +1,25 @@
+.QuoteContainer {
+  width: 50%;
+  margin: 2rem auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+}
+
+.Error {
+  color: rgb(223, 55, 55);
+  font-size: 1.25rem;
+  font-style: italic;
+}
+
+blockquote {
+  text-align: center;
+  font-size: 1.25rem;
+  font-style: italic;
+  color: rgb(73, 73, 73);
+}
