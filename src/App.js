@@ -1,14 +1,32 @@
-import './App.css';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { Routes, Route } from 'react-router-dom';
+import Header from './components/Header';
+import Home from './components/Home';
 import RenderCalculator from './components/Calculator';
 import FetchQuote from './components/Fetch';
+import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <RenderCalculator />
-      <FetchQuote />
-    </div>
+    <>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/calculator" element={<RenderCalculator />} />
+        <Route path="/quote" element={<FetchQuote />} />
+      </Routes>
+    </>
   );
 }
 
 export default App;
+
+/*
+
+<div className="App">
+      <Home />
+      <RenderCalculator />
+      <FetchQuote />
+    </div>
+
+*/
