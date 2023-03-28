@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import './Fetch.css';
+import '../styles/Fetch.css';
 
 const FetchQuote = () => {
   const [data, setData] = useState([]);

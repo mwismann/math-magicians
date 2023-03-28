@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Home from './components/Home';
 import RenderCalculator from './components/Calculator';
 import FetchQuote from './components/Fetch';
-import './App.css';
+import './styles/App.css';
 
 function App() {
   return (
@@ -20,13 +20,3 @@ function App() {
 }
 
 export default App;
-
-/*
-
-<div className="App">
-      <Home />
-      <RenderCalculator />
-      <FetchQuote />
-    </div>
-
-*/
