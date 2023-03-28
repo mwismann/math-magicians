@@ -1,4 +1,4 @@
-import './Calculator.css';
+import '../styles/Calculator.css';
 import { useState } from 'react';
 import PropTypes from 'prop-types';
 import calculate from '../logic/calculate';
@@ -56,4 +56,13 @@ const RenderCalculator = () => {
   );
 };
 
-export default RenderCalculator;
+const CalculatorPage = () => (
+  <div className="calculator-wrapper">
+    <h2>
+      Let&apos;s do some math!
+    </h2>
+    <RenderCalculator />
+  </div>
+);
+
+export default CalculatorPage;

@@ -1,0 +1,24 @@
+.home-wrapper {
+  padding: 6rem 4rem;
+}
+
+.home-about {
+  margin-top: 1rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 1rem;
+  background-color: rgba(20, 21, 21, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 2rem 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0.25rem);
+  -webkit-backdrop-filter: blur(0.25rem);
+}
+
+.home-about > p {
+  margin: 0;
+  font-size: 1.1rem;
+}
