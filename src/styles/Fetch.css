@@ -1,25 +1,36 @@
 .QuoteContainer {
   width: 50%;
-  margin: 2rem auto;
+  margin: 12rem auto;
   padding: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: aliceblue;
-  border: 1px solid black;
-  border-radius: 0.5rem;
+  background-color: rgba(20, 21, 21, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 2rem 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0.25rem);
+  -webkit-backdrop-filter: blur(0.25rem);
 }
 
 .Error {
-  color: rgb(223, 55, 55);
+  color: rgba(223, 55, 55, 0.88);
   font-size: 1.25rem;
   font-style: italic;
+}
+
+span {
+  color: rgb(200, 200, 200);
 }
 
 blockquote {
   text-align: center;
   font-size: 1.25rem;
   font-style: italic;
-  color: rgb(73, 73, 73);
+  color: rgb(200, 200, 200);
+}
+
+p {
+  color: rgb(200, 200, 200);
 }

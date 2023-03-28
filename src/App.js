@@ -10,11 +10,13 @@ function App() {
   return (
     <>
       <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/calculator" element={<RenderCalculator />} />
-        <Route path="/quote" element={<FetchQuote />} />
-      </Routes>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/calculator" element={<RenderCalculator />} />
+          <Route path="/quote" element={<FetchQuote />} />
+        </Routes>
+      </div>
     </>
   );
 }
