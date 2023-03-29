@@ -1,14 +1,14 @@
-import calculate from "../logic/calculate";
+import calculate from '../logic/calculate';
 
 describe('Test of all calculate functions', () => {
   test('will return 4 by adding 2 + 2', () => {
     const myOb = { total: '2', next: '2', operation: '+' };
-    const resObj = {total: '4', next: null, operation: null };
+    const resObj = { total: '4', next: null, operation: null };
     expect(calculate(myOb, '=')).toEqual(resObj);
   });
   test('will return the value of 5 by substract 8 - 3', () => {
     const myObj = { total: '8', next: '3', operation: '-' };
-    const ResObj = { total: '5', next: null, operation: null, };
+    const ResObj = { total: '5', next: null, operation: null };
     expect(calculate(myObj, '=')).toEqual(ResObj);
   });
   test('will return the value of null by pressing AC', () => {

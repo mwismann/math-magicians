@@ -1,5 +1,5 @@
-import { render, fireEvent, screen, } from "@testing-library/react";
-import CalculatorPage from "../components/Calculator";
+import { render, fireEvent, screen } from '@testing-library/react';
+import CalculatorPage from '../components/Calculator';
 
 test('Calculator renders correctly', () => {
   const text = render(<CalculatorPage />);
