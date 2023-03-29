@@ -121,6 +121,13 @@ To install this project dependencies run the following command:
 - Twitter: [@mathias_wismann](https://twitter.com/mathias_wismann)
 - LinkedIn: [Mathias Wismann](https://www.linkedin.com/in/mathias-wismann/)
 
+👤 **Giancarlo Dumani**
+
+- GitHub: [@gdumani](https://github.com/gdumani)
+- Twitter: [@gdumani1](https://twitter.com/gdumani1)
+- LinkedIn: [ Giancarlo-Dumani](https://www.linkedin.com/in/gdumani/?originalSubdomain=cr)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
