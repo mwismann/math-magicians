@@ -7,7 +7,7 @@ const keys = ['AC', '+/-', '%', '÷', 7, 8, 9, 'x', 4, 5, 6, '-', 1, 2, 3, '+', 
 
 const CalculatorOutput = ({ result }) => (
   <section className="CalcOutput">
-    <span>
+    <span data-testid="display">
       {result.total}
       {result.operation}
       {result.next}
