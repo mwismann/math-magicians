@@ -21,9 +21,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [math-magician] <a name="about-project"></a>
+# 📖 [math-magicians] <a name="about-project"></a>
 
-**[math-magician]** is a project where I created a SPA with React. The web app consist of three pages, the ``Home``, ``Calculator``, and ``Quote``. Using the React Routing services, users can interact with the site by clicking on the nav linking provided in the ``Header``  to render each page. On ``Home`` there is a placeholder text presented as the ``About`` content. On ``Calculator`` users are able to interact with the app to complete math equations. Lastly, on ``Quote`` user's are provided with a random quote fetch from the [API Ninjas](https://api-ninjas.com/) services. Each component is tested with [Jest](https://jestjs.io/) and the [React Testing Library](https://testing-library.com/). The project is deployed using the cloud application hosting service by [Render](https://render.com/).
+**[math-magicians]** is a project where I created a SPA with React. The web app consist of three pages, the ``Home``, ``Calculator``, and ``Quote``. Using the React Routing services, users can interact with the site by clicking on the nav linking provided in the ``Header``  to render each page. On ``Home`` there is a placeholder text presented as the ``About`` content. On ``Calculator`` users are able to interact with the app to complete math equations. Lastly, on ``Quote`` user's are provided with a random quote fetch from the [API Ninjas](https://api-ninjas.com/) services. Each component is tested with [Jest](https://jestjs.io/) and the [React Testing Library](https://testing-library.com/). The project is deployed using the cloud application hosting service by [Render](https://render.com/).
 
 ## 🛠 Built With <a name="built-with"></a>
 
