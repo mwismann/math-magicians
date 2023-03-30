@@ -6,6 +6,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -22,7 +23,7 @@
 
 # 📖 [math-magician] <a name="about-project"></a>
 
-**[math-magician]** is a project where I'll be creating a SPA with React. For the moment I set up the repo, so stay tuned for the future changes!
+**[math-magician]** is a project where I created a SPA with React. The web app consist of three pages, the ``Home``, ``Calculator``, and ``Quote``. Using the React Routing services, users can interact with the site by clicking on the nav linking provided in the ``Header``  to render each page. On ``Home`` there is a placeholder text presented as the ``About`` content. On ``Calculator`` users are able to interact with the app to complete math equations. Lastly, on ``Quote`` user's are provided with a random quote fetch from the [API Ninjas](https://api-ninjas.com/) services. Each component is tested with [Jest](https://jestjs.io/) and the [React Testing Library](https://testing-library.com/). The project is deployed using the cloud application hosting service by [Render](https://render.com/).
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -41,22 +42,30 @@
 <details>
   <summary>Server</summary>
   <ul>
-    <li>No server at the moment</li>
+    <li>[Render](https://render.com/)</li>
   </ul>
 </details>
 
 <details>
 <summary>Database</summary>
   <ul>
-    <li>No database was used in this project.</li>
+    <li>[API Ninjas](https://api-ninjas.com/)</li>
   </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>
 
 - **[Correct set up of React environment]**
-- **[Correct set up of Linters and GitFlow environment.]**
-- **[Correct flow of React components]**
+- **[Dynamic, functional calculator]**
+- **[Correct fetching of API's data]**
+- **[Testing with Jest and React Testing Library]**
+- **[Deployment with Render]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Math Magicians](https://math-magicians-6tjd.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -132,10 +141,7 @@ To install this project dependencies run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **[Add logic to the Calculator]**
-- **[Project components]**
-- **[Project events]**
-- **[Fetch data from API]**
+- **[Mobile version]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
