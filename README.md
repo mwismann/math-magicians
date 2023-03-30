@@ -42,14 +42,14 @@
 <details>
   <summary>Server</summary>
   <ul>
-    <li>[Render](https://render.com/)</li>
+    <li><a href="https://render.com/">Render</></li>
   </ul>
 </details>
 
 <details>
 <summary>Database</summary>
   <ul>
-    <li>[API Ninjas](https://api-ninjas.com/)</li>
+    <li><a href="https://api-ninjas.com/">API Ninjas</a></li>
   </ul>
 </details>
 
